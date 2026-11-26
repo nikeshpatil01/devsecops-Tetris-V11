@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "devsecops-bkt-113" # Replace with your actual S3 bucket name
+    bucket = "chetan-bkt-2000" # Replace with your actual S3 bucket name
     key    = "EKS/terraform.tfstate"
     region = "ap-south-1"
   }
